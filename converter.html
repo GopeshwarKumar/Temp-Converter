@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./converter.css" rel="stylesheet">
+        <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+        <style>
+            
+        </style>
+    </head>
+    <body>
+    <h1 id="text">Temperature Converter</h1>
+    <div id="header">
+
+    <div id="main">
+        <h2>Fahrenheit to Celcius</h2>
+    <input type="text" name="text" autofocus="" placeholder="Fahrenheit temp.." id="celcius">
+    <input type="text" id="result" readonly="">
+    <button onclick="show()">Click</button>
+    </div>
+
+<div id="main">
+    <h2>Celcius to Fahrenheit </h2>
+<input type="text" name="text2" autofocus="" placeholder="Celcius temp.." id="fahrenheit">
+<input type="text" id="result2" readonly="">
+<button onclick="show2()">Click</button>
+</div>
+
+<div id="main">
+    <h2>Celcius to Kelvin</h2>
+<input type="text" name="text3" autofocus="" placeholder="Celcius temp.." id="kelvin">
+<input type="text" id="result3" readonly="">
+<button onclick="show3()">Click</button>
+</div>
+</div>
+    <script src="converter.js"></script>
+        
+    </body>
+</html>
